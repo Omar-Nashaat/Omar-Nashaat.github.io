@@ -78,6 +78,8 @@ width: 90%;
     border-style: solid;
     padding:1rem 4rem;
    border-color: #329D9C;
+    text-decoration: none;
+   text-transform: capitalize;
 }
 .btn:hover{
     background: white;
