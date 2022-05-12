@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+/* header{
+	background-color: white;
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 200px;
+}
+.logo{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.8em;
+}
+.navigation a{
+	text-decoration: none;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+	color: black;
+	font-weight: 500;
+	font-size: 1.1em;
+	padding-left: 30px;
+}
+.navigation a:hover{
+	color:#B6B6B6 ;
+	transition: 0.7s ease;
+}
+.navigation span{
+	color: red;
+}
+.navigation a:hover span{
+	color: black;
+	transition: 0.7s ease;
+}
+
+.footer{
+	background-color: black;
+}
+.dropbtn{
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.6s ease;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  transition: 0.6s ease;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover{
+	background-color: #9B9B9B;
+	transition: 0.6s ease;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #9B9B9B;
+  color: black;
+}
+.dropdown-content .span{
+	background-color: darkred;
+} */
+.aboutus {
+	margin: 15px;
+	padding: 5px;
+}
+.aboutus h1 {
+	text-align: center;
+	color: black;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.aboutus p {
+    text-align: center;
+	padding: 3px;
+	color: white;
+}
+.text {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+	padding: 80px 30px;
+	box-shadow: 0 0 9 rgba(0,0,0,.6);
+	margin: 1;
+}
+.about,
+.cards {
+	padding-top: 70px;
+}
+.text i {
+	font-size: 34px;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+.text h3 {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.text hr {
+    width: 46px;
+	height: 3px;
+	background-color: #5fbff9;
+	margin: 0 auto;
+	border: none;
+}
+.text p {
+	margin-top: 20px;
+}
+.text:hover {
+	background-color: #5fbff9;
+}
+.text:hover i,
+.text:hover h3,
+.text:hover p {
+	color: #fff;
+}
+.text:hover hr {
+	background-color: white;
+}
+.text:hover i {
+	transform: translateY(-20px);
+}
+.text:hover i,
+.text:hover h3,
+.text:hover hr {
+	transition: all 400ms ease-in-out;
+}
+.row{
+display: flex;
+flex-direction: row;
+}
+.text {
+	text-align: center;
+}
+body {background-color: dimgray;}
