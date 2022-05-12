@@ -1,0 +1,67 @@
+.doctors {
+    margin-top: 150px;
+}
+.doctors p {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    text-align: center;
+}
+.doctors .btn {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px 0;
+    background-color: #e4c7b7;
+    color: black;
+    margin-left: 112px;
+    text-align: center;
+}
+.left,
+.center,
+.right {
+    width: 300px;
+    height: 510px;
+    background-color: transparent;
+}
+.left {
+    margin-left: 120px; 
+}
+.left img {
+    margin-top: 87px;
+}
+.left .im,
+.center .im,
+.right .im {
+    width: 300px;
+    height: 400px;
+}
+
+.right {
+    margin-left: 920px;
+    margin-top: -509px;
+}
+.center {
+    margin-left: 520px;
+    margin-top: -421px;
+}
+/* .btn{
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+    background-color: #abd1dc;
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: black;
+	font-family: 'Poppins', sans-serif;
+	text-transform: capitalize;
+	margin: 1rem 0;
+	cursor: pointer;
+	transition: .5s;
+}
+.btn:hover{
+	background-position: right;
+    color: black;
+} */
